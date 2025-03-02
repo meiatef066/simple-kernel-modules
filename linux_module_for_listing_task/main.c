@@ -2,7 +2,7 @@
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-#include <linux/sched/signal.h>  // Correct header for iterating over tasks
+#include <linux/sched/signal.h>  
 #include <linux/list.h>
 
 #define PROCESS_INFO "pidinfo"
